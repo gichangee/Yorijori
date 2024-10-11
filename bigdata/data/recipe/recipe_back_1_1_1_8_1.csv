@@ -1,0 +1,46 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+31652,메인반찬,초스피드,돼지고기,튀김,★집에서 만들어먹어 더 맛난 치즈돈까스,None,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/05/1ee9a8dd4f19e85ffdf256274162dbde.jpg,"10,042",None,None,None,[],,[]
+31653,메인반찬,초스피드,돼지고기,튀김,요리 유튜버 칩(chip) 맛있는 소스부터 바삭바삭한 탕수육 만들기,탕수육,https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/55f7dd89d78ecf23b174485f47d6d4481.jpg,"1,727",5분 이내,초급,1인분,"[('돼지고기', '먹을만큼'), ('감자전분                                                                                고기 반죽 할 정도', ''), ('후르츠 칵테일', '1캔'), ('간장                                                                                자기 입맛에 맞춰서', ''), ('소금', '2꼬집'), ('다진마늘', '1T'), ('후추', '약간'), ('식초', '적당히'), ('전분가루', '1t')]",요리 유튜버 칩 레시피,"[{'step_number': 1, 'description': '재료준비를 합니다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/2eb58972f1a45c62f7ac082a6ef58d241.jpg'}, {'step_number': 2, 'description': '돼지고기에 핏물을 짝 짜줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/e6af47499e808a761f3f7f0a331ad7b01.jpg'}, {'step_number': 3, 'description': '핏물을 짠 돼지고기에 다진마늘 1T과 소금 2꼬집 후추 약간을 해서 재워둔다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/07ad6ae99cd6bd548ee5b475886c065f1.jpg'}, {'step_number': 4, 'description': '돼지고기를 재울동안 볼에 전분과 물을 넣어 전분앙금을 만듭니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/2497f17c3739fa19493bac5ad4e3888d1.jpg'}, {'step_number': 5, 'description': '전분앙금이 만들어 질 동안 소스를 만들어 줄겁니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/09264b6e5addeb566f36196fb0762eca1.jpg'}, {'step_number': 6, 'description': '펜에 후르츠칵테일을 넣습니다. 후르츠칵테일 물을 소스로 만들거라 적당히 많이 넣어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/d95c89c28a7ff6f0069afa491909577e1.jpg'}, {'step_number': 7, 'description': '후르츠 칵테일을 넣은 펜에 자기 간에 맞춘 간장을 적당히 넣고, 식초도 적당히 넣고, 전분가루 1t을 넣고, 가열합니다. ※이때 모든 재료를 넣고 마지막에 불을 켜야합니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/fbd92e92635ee2fa4f340f45674587ec1.jpg'}, {'step_number': 8, 'description': '그리고 다른 펜에 기름을 넣어 튀길 준비를 합니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/d22e8f68b0575c4ecfe0d80f40f9e63a1.jpg'}, {'step_number': 9, 'description': '소스가 걸쭉해졌다 싶으면 불을 끕니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/04fbec292a1db113d38cd36afb56c9021.jpg'}, {'step_number': 10, 'description': '아까 놓아두었던 전분앙금에 물을 따르고 거기에 재워두었던 고기를 넣어 반죽해줍니다. ※이때 반죽할 때 뻑뻑하더라도 아무것도 넣지 말고 반죽해줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/64ba79efefa65ac66fdbc911499801ca1.jpg'}, {'step_number': 11, 'description': '반죽이 다 됬으면 반죽한 고기를 튀겨줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/28800bbf78e692a79900f0c4e2a12a311.jpg'}, {'step_number': 12, 'description': '잘 익으면 튀긴 고기를 꺼내놨다가 30초후 한번 더 튀겨줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/15403efdb51ae1b5b78f8cd64028a2861.jpg'}, {'step_number': 13, 'description': '잘 익으면 튀긴 고기를 플레이팅 해줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/02/13/534b2a6846e9a9efc26e921da47416b31.jpg'}]"
+31654,메인반찬,초스피드,돼지고기,튀김,"치즈를 취양껏 올려 먹는
+치즈돈까스",치즈돈까스,https://recipe1.ezmember.co.kr/cache/recipe/2017/12/26/867f5e1b941ca762c4e48b3e43d7a6941.jpg,"2,817",10분 이내,중급,2인분,"[('돈까스', ''), ('모짜렐라치즈', ''), ('돈까스소스', ''), ('파슬리가루', '')]","요즘 제 상태가 안좋아서 이번 크리스마스는
+대충 보냈네요
+
+그래서 집에 재워둔 돈까스로 
+간단한 치즈돈까스를 만들었어요
+치즈돈까스 하면 돈까스를 재는과정에서 
+치즈를 중간에 넣고 만들어야 하는데 
+전 만들어 놓은 돈까스에 치즈를 올려
+만들었지요
+
+가운데 넣고 만드나 위에 올려 하나 먹는맛은
+똑같아 상관없을꺼 같더라고요
+오히려 취향에 따라 치즈양 조절 할수있어서
+좋았던거 같아요
+
+큰아들은 치즈 듬뿍 작은아들은 아주조금
+넣고 해줬어요
+치즈를 별로 좋아하지 않는 둥이들이라
+입맛에 맞게 해주니 이것또한 별미 인듯
+잘 먹네요
+
+돈까스와 소스 만들어 놓은거에 치즈만
+첨가해 만든 고정과념을 깬 치즈돈까스
+어떠세요^^","[{'step_number': 1, 'description': '돈까스를 튀깁니다\n소스를 데웁니다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/12/26/42728ffa45cf3f8b708d9c2e4474d7e11.jpg'}, {'step_number': 2, 'description': '튀긴 돈까스를 접시에 담고 위에 모짜렐라치즈를 양껏 올립니다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/12/26/5b199b87db790fdca8c0042600aac5971.jpg'}, {'step_number': 3, 'description': '전자렌지에 치즈가 녹을때까지 돌립니다전자레인지', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/12/26/2a267dc824313ca82fc43d00453418081.jpg'}, {'step_number': 4, 'description': '위에 소스를 뿌리고 파슬리가루를 뿌립니다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/12/26/a7412a12fa66a3590a59f4a47e2fa4631.jpg'}]"
+31655,메인반찬,초스피드,돼지고기,튀김,탕수육,탕수육,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/a3d4fbd4381f78241062155c7de96fb11.jpg,"28,446",60분 이내,고급,4인분,"[('돼지고기 등심', '400g'), ('감자전분', ''), ('옥수수전분', ''), ('식용유', ''), ('달걀', '1개'), ('다진마늘', ''), ('후추', ''), ('소금', ''), ('연두', '조금')]",튀김바삭하게 튀기는법! 과자처럼 바삭한 튀김 만드는법! 탕수육 튀김옷 바삭하게 만드는법!냉장고를 부탁해 이연복쉐프님의 탕수육 튀김옷 비결을 따라했어요.,"[{'step_number': 1, 'description': '돼지고기는 안심을 준비했습니다. 고기는 큼지막하게 잘라 기본양념을 해 놓습니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/3982e1582d0a90c0d1da787a24ca23cf1.jpg'}, {'step_number': 2, 'description': '감자전분:옥수수전분=7:3 그리고 기름이 전분양 만큼 들어갑니다. 식용유가 반죽에 들어가야 튀겼을때 기름이 빠져 나오면서 공기층이 부풀어 오른다네요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/e6ab2ecee811488936a571c4e85fb5291.jpg'}, {'step_number': 3, 'description': '감자전분과 옥수수전분을 7:3 비율로 거기에 계란1개~', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/a92683df06d52b3be76c8e127c23342b1.jpg'}, {'step_number': 4, 'description': '물을 조금 섞어가며 반죽을 섞습니다. 반죽은 마요네즈 정도의 농도로 맞춰줘요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/438dff1b890eb3b27e2c90826a577e971.jpg'}, {'step_number': 5, 'description': '반죽의 농도가 보이시나요~ 질퍽하면서 조금식 흘러내리는 정도입니다. 튀김재료에 따라 반죽의 농도를 맞춰주는게 노하우 같습니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/4f38b4257e7b5409586ce9ec16b67b811.jpg'}, {'step_number': 6, 'description': '양념한 돼지고기를 반죽에 버무려 튀길 준비를합니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/bc162d3af575f0462aeaa72cd31a2cc31.jpg'}, {'step_number': 7, 'description': '기름은 미리 달궈 놓은 후 튀김을 넣었을때 파르르~ 떠오르는 정도로 맞춰줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/f40edfec04f6ec136d88feb20e5273391.jpg'}, {'step_number': 8, 'description': '바글바글 튀겨지고 있습니다. 바삭하게 튀길려고 시간을 좀 들였더니 색이 좀 노랗게 되더라구요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/d8552d8590aca4da218a10dde9169f581.jpg'}, {'step_number': 9, 'description': '일단 이연복쉐프님의 탕수육처럼 하얀튀김은 아니고 색은 좀 노랗게 보이지만 바삭함은 아주 좋습니다. 제가 튀겨본 튀김옷 중에 가장 바삭한거 같아요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/da8c48f49178348db961c61220a723bb1.jpg'}]"
+31656,메인반찬,초스피드,돼지고기,튀김,#에어프라이어요리 #스테이크돈까스 #커리돈까스소스 #카레돈까스만들기,스테이크돈까스,https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/d2af918af38dd779f712a6c2dab034731.jpg,"2,753",20분 이내,아무나,4인분,"[('냉동 채소', '2컵'), ('냉동새우', '6마리'), ('매운맛 카레가루', '3큰술'), ('데리야끼소스', '1작은술'), ('육수', '4컵'), ('돈까스', '4조각'), ('올리브오일', '2큰술')]","에어프라이어로 조리할 수 있는 돈까스가 있어서
+
+진정 오랜만에 돈까스를 해 먹자고 구입했는데 소스는
+
+그냥 데리야끼소스로 할까도 했지만
+
+​
+
+카레가루가 있으니 카레소스를 위에 끼얹어서 먹는 것이 훨씬 맛있겠다라는 생각이 들었어요.
+
+튀김기를 사용할 필요도 없고 그냥 에어프라이어에 맡기면 되니까
+
+편하면서 그 사이에 소스 만들면 되니까요 ㅎㅎ
+
+​
+
+두툼한 스테이크돈까스로 칼질 좀 하실래요???!!!","[{'step_number': 1, 'description': '먼저 달궈진 팬에 기름 두르시고요. 냉동채소와 냉동새우를 넣고는 볶아 줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/9c58a36e8c66f75a6c1fb36828bb47171.jpg'}, {'step_number': 2, 'description': '볶다가는 매운카레가루를 투여해 주고는 같이 볶아 줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/d259e32c7a3651d5dc126851123d7d741.jpg'}, {'step_number': 3, 'description': '여기에 약간의 갈색빛을 내기 위해서 데리야끼소스를 추가로 조금 넣어 주었습니다. 이게 간을 역할을 하기도 하지요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/679687eb1569b77a097287082151aec61.jpg'}, {'step_number': 4, 'description': '그리고 천연조미료육수나 그냥 물을 넣어서 끓여 주세요. 센불에서요. 그럼 돈까스소스인 커리소스는 완성입니다. 새우에서 나오는 감칠맛도 좋고요. 각종 채소에서 나오는 깊은 맛도 좋습니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/e1b26c89c11eed823232a485e26bcd081.jpg'}, {'step_number': 5, 'description': '돈까스는 냉동인데 에어프라이어용으로 나온 것입니다. 그래서 튀김기름에 튀기지 않아도 에어프라이어로 바삭하게 드실 수 있지요. 스테이크돈까스라서 엄청나게 두께가 있습니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/6b158d5401146a0209faa2b6b2a8d2fe1.jpg'}, {'step_number': 6, 'description': '180도에 맞춰 놓고는 돈까스 두 덩어리를 넣고는 15분 돌려 주고 뒤집어서 다시 15분 돌려 주었습니다.에어프라이어', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/db238b047b3ed59acc69c809d10df28f1.jpg'}, {'step_number': 7, 'description': '바삭바삭하게 잘 튀겨진 에어프라이어 스테이크 돈까스입니다. 역시 에어프라이어에 맞춰서 나왔기 때문에 쉽고 간단하게 튀긴듯한 느낌이 나네요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/b4e48dc9ecdc02648c99944e61be92bd1.jpg'}, {'step_number': 8, 'description': '완성접시에 튀겨진 스테이크돈까스를 올려 주고 워낙에 돈까스가 두껍기 때문에 밥은 살짝만 올려 줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/5d698d22f8a6e33437ab3e0d6b58f0e81.jpg'}, {'step_number': 9, 'description': '걸쭉한 상태가 된 돈까스커리소스입니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/46e53dd6bacbdfcc9363a772277457a81.jpg'}, {'step_number': 10, 'description': '돈까스에 커리소스를 뿌려 주시면 에어프라이어로 만든 바삭한 스테이크돈까스와 커리소스 완성입니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/10/14/7c17fcdd7571d039de00612c254c61161.jpg'}]"

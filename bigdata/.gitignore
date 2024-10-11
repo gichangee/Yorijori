@@ -1,0 +1,76 @@
+# Python 환경 관련 파일 및 디렉터리
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.whl
+.eggs/
+*.manifest
+*.spec
+
+# 가상 환경 디렉터리
+venv/
+.venv/
+ENV/
+env/
+Env/
+env.bak/
+env.d/
+build/
+develop-eggs/
+dist/
+pip-wheel-metadata/
+pip-log.txt
+*.log
+*.sql
+
+# IDE 설정 파일
+.vscode/
+.idea/
+
+# 환경 변수 파일
+.env
+.env.*
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# MySQL, SQLite 등 데이터베이스 파일
+*.db
+*.sqlite3
+*.mysql
+*.sql
+
+# 테스트 결과 파일
+.coverage
+coverage.*
+*.cover
+*.coverage.*
+.cache
+.nox/
+.tox/
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# 로그 파일
+*.log
+*.log.*
+*.out
+*.err
+
+# OS에서 생성하는 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Docker 관련 파일
+docker-compose.override.yml
+.dockerignore

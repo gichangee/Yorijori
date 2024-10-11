@@ -1,0 +1,106 @@
+pipeline {
+    agent any
+
+    environment {
+        FRONTEND_DIR = './frontend'
+        DOCKER_IMAGE_FRONTEND = 'parkgc0504/frontend:latest'
+        GITLAB_CREDENTIALSID = 'gichangssafy'
+        DOCKERHUB_CREDENTIALS = 'dockerhub-credentials'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git credentialsId: GITLAB_CREDENTIALSID, branch: 'master', url: 'https://lab.ssafy.com/s11-bigdata-dist-sub1/S11P21C206.git'
+            }
+        }
+
+        stage('Notify Start') {
+            steps {
+                script {
+                    def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                    def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                    mattermostSend(
+                        color: 'warning',
+                        message: "frontend 빌드 시작: ${env.JOB_NAME} #${env.BUILD_NUMBER} \n(<${env.BUILD_URL}|Details>)",
+                        endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                        channel: 'C206_deploy'
+                    )
+                }
+            }
+        }
+
+        stage('Build Frontend') {
+            when {
+                changeset "frontend/**"  // frontend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(FRONTEND_DIR) {
+                    sh 'npm install'
+                    sh 'npm run build'
+                }
+            }
+        }
+
+        stage('Docker Build and Push Frontend to DockerHub') {
+            when {
+                changeset "frontend/**"  // frontend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(FRONTEND_DIR) {
+                    script {
+                        docker.withRegistry('https://registry.hub.docker.com', DOCKERHUB_CREDENTIALS) {
+                            def frontendImage = docker.build(DOCKER_IMAGE_FRONTEND)
+                            frontendImage.push()
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Deploy Locally') {
+            when {
+                changeset "frontend/**"  // frontend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                script {
+                    // 기존 컨테이너 중지 및 제거
+                    sh 'docker stop frontend || true'
+                    sh 'docker rm frontend || true'
+                    
+                    // 새로운 컨테이너 실행
+                    sh '''
+                    docker run -d -p 3000:3000 --network backendnet \
+                    --name frontend parkgc0504/frontend:latest
+                    '''
+                }
+            }
+        }
+
+    }
+
+    post {
+        success {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'good',
+                    message: "frontend 빌드 성공: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+        failure {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'danger',
+                    message: "frontend 빌드 실패: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+    }
+}

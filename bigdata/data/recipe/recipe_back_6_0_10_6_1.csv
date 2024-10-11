@@ -1,0 +1,15 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+75066,밥/죽/떡,일상,버섯류,찜,표고버섯으로 맛있는 표고버섯무밥 만들기,표고버섯무밥,https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/47976f2b707a08b74e18a1f2cfdb29141.jpg,"4,295",30분 이내,초급,3인분,"[('쌀', '1.5종이컵'), ('물', '300ml'), ('표고버섯', '7개'), ('무                                                                                손가락', '1마디')]","오늘은 지난번에 시골가서 엄빠가 얻어온 많은 표고버섯을 활용해서 
+
+무채썰어 넣고 표고버섯 넣어서 표고버섯무밥 만들었어요:)
+
+곤드레밥, 무밥, 콩나물밥, 버섯밥 등 취사 누를때 함께 많이 하는데...
+
+
+
+
+
+
+
+저는 눈에 보이는 무랑 표고버섯을 넣어 밥을 만들었어요:)","[{'step_number': 1, 'description': '표고버섯이 생겨서', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/5ec68b5f94ace91a10cedd9ca3ad0c371.jpg'}, {'step_number': 2, 'description': '채썰고 물에 한번 헹궈줬어요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/c6868ce52c6d7dd46a1a3bd211345d051.jpg'}, {'step_number': 3, 'description': '준비한 쌀은 씻어서 놓고 채썬 무와', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/cd4b78d2cc93cf723748020887ccecd21.jpg'}, {'step_number': 4, 'description': '손질한 표고버섯을 넣고 살이 물에 잠길 정도로 넣고 취사를 눌러줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/d636227822b1cc642f3590e7fe184a9a1.jpg'}, {'step_number': 5, 'description': '완성된 표고버섯무밥입니다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/8031510f30c51827f5592b85af64f2251.jpg'}, {'step_number': 6, 'description': '완성된 표고버섯무밥입니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2018/05/18/98ddc456c5ba0f10bd4157d68dad1eef1.jpg'}]"
+75067,밥/죽/떡,일상,버섯류,찜,쇠고기 표고버섯죽,표고버섯죽,https://recipe1.ezmember.co.kr/cache/recipe/2018/08/06/8a1501ff94ae1ede75b64a1e808a50f9.jpg,"5,466",15분 이내,초급,1인분,"[('즉석밥', '1 개'), ('다진쇠고기', '1 큰술'), ('다진표고버섯', '2 큰술'), ('다진야채', '1 큰술'), ('식용유', '적당량'), ('참기름', '적당량'), ('간장', '약간'), ('소금', '약간')]",참기름에 달달 볶은 쇠고기와 표고버섯의 고소함이 입맛 당기는 쇠고기 표고버섯죽. 마른 표고버섯을 불려 사용하면 한층 풍부한 맛을 낼 수 있다. 간장과 참기름으로 간을 하면 더욱 맛나다.,"[{'step_number': 1, 'description': '냄비에 식용유를 약간 두른 뒤 표고버섯과 야채를 넣어 살짝 볶는다.', 'image_url': None}, {'step_number': 2, 'description': '야채가 반 정도 익으면 쇠고기를 넣어 함께 볶는다.', 'image_url': None}, {'step_number': 3, 'description': '2에 흰쌀죽을 넣고 고루 섞은 뒤 1분 정도 끓이면 완성입니다. 간(소금 간장 등)은 먹기 직전 취향에 따라 조절한다.', 'image_url': None}]"

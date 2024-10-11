@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: gichang
+      MYSQL_DATABASE: yorijori
+      MYSQL_USER: gichang
+      MYSQL_PASSWORD: gichang
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - backendnet
+
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - 6379:6379
+    networks:
+      - backendnet
+
+  user-service:
+    image: parkgc0504/user-service:latest # DockerHub에 푸시된 백엔드 이미지 parkgc0504/user-service:latest
+    container_name: user-service
+    ports:
+      - "8081:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    depends_on:
+      - mysql
+      - redis
+    networks:
+      - backendnet
+
+volumes:
+  mysql-data:
+
+networks:
+  backendnet:
+    external: true  # 외부 네트워크 사용

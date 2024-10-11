@@ -1,0 +1,7 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+150879,퓨전,술안주,버섯류,볶음,매운 팽이버섯 불닭소스 양념 레시피 따라만 하세요!,팽이버섯불닭소스,https://recipe1.ezmember.co.kr/cache/recipe/2020/10/18/f1a445e7fce0fd8d87b9e94e620436601.jpg,"8,418",20분 이내,초급,2인분,"[('팽이버섯', '1봉지'), ('청양고추', '2개'), ('파', ''), ('설탕', '1.5숟가락'), ('고추장', '1숟가락'), ('고추기름', '3숟가락'), ('다진마늘', '1숟가락'), ('불닭 소스', '4숟가락')]","재료 (팽이버섯 1봉지 기준)
+팽이버섯, 청양고추, 파
+
+양념 (숟가락 기준)
+설탕 1.5, 고추장 1, 다진마늘1, 고추기름3, 불닭 소스 4
+(고추기름, 불닭 소스는 많이 넣을수록 맛있어요)","[{'step_number': 1, 'description': '팽이버섯 손질을 해주세요\n끝부분을 남겨두고 잘라주세요 \n(그래야 구울때 모양이 흐트러 지지않고 구워져요)칼버섯 손질법 레시피', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/10/18/bfc3b3906123902674b63cc17f793ad91.jpg'}, {'step_number': 2, 'description': '양념을 만들어주세요\n설탕1.5, 고추장1, 고추기름3, 다진마늘1, 불닭소스4', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/10/18/3af4fefb2aad2ce6d774623a3b44dd291.jpg'}, {'step_number': 3, 'description': '후라이팬에 기름을 두르고 팽이버섯을 올려주세요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/10/18/6c1dc1d62490c45615c39dbf196913781.jpg'}, {'step_number': 4, 'description': '여기서 바로 양념 소스를 뿌려주세요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/10/18/02c9faccd40f8c75bc760f2bb48acd111.jpg'}, {'step_number': 5, 'description': '그리고 파를 뿌리고 맛있게 익혀서 먹으면 끝!', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/10/18/0bf160107742fee3f3c587758ac963c51.jpg'}]"

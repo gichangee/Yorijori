@@ -1,0 +1,108 @@
+pipeline {
+    agent any
+
+    environment {
+        BACKEND_DIR = './config_service'
+        DOCKER_IMAGE_BACKEND = 'parkgc0504/config-service:latest'
+        GITLAB_CREDENTIALSID = 'gichangssafy'
+        DOCKERHUB_CREDENTIALS = 'dockerhub-credentials'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git credentialsId: GITLAB_CREDENTIALSID, branch: 'master', url: 'https://lab.ssafy.com/s11-bigdata-dist-sub1/S11P21C206.git'
+            }
+        }
+
+        stage('Notify Start') {
+            steps {
+                script {
+                    def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                    def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                    mattermostSend(
+                        color: 'warning',
+                        message: "config_service 빌드 시작: ${env.JOB_NAME} #${env.BUILD_NUMBER} \n(<${env.BUILD_URL}|Details>)",
+                        endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                        channel: 'C206_deploy'
+                    )
+                }
+            }
+        }
+
+
+        stage('Build config_service') {
+            when {
+                changeset "config_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(BACKEND_DIR) {
+                    sh 'chmod +x gradlew'
+                    sh './gradlew clean build'
+                }
+            }
+        }
+
+        stage('Docker Build and Push config_service to DockerHub') {
+            when {
+                changeset "config_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(BACKEND_DIR) {
+                    script {
+                        docker.withRegistry('https://registry.hub.docker.com', DOCKERHUB_CREDENTIALS) {
+                            def backendImage = docker.build(DOCKER_IMAGE_BACKEND)
+                            backendImage.push()
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Deploy Locally') {
+            when {
+                changeset "config_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                script {
+                    // 기존 컨테이너 중지 및 삭제
+                    sh 'docker stop config-service || true'
+                    sh 'docker rm config-service || true'
+
+                    // 새로운 컨테이너 실행
+                    sh '''
+                    docker run -d -p 8888:8888 --network backendnet \
+                    -e "spring.rabbitmq.host=rabbitmq" \
+                    -e "spring.profiles.active=default" \
+                    --name config-service parkgc0504/config-service:latest
+                    '''
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'good',
+                    message: "config_service 빌드 성공: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+        failure {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'danger',
+                    message: "config_service 빌드 실패: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+    }
+}

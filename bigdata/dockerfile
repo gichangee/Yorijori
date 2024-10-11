@@ -1,0 +1,58 @@
+# Ubuntu 20.04 기반 이미지
+FROM ubuntu:20.04
+
+# 비상호작용 모드 설정
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 루트 권한으로 전환
+USER root
+
+# 필수 패키지 설치
+RUN apt-get update && apt-get install -y \
+    locales \
+    curl \
+    openjdk-11-jdk \
+    python3 \
+    python3-pip \
+    iputils-ping \
+    vim
+
+# UTF-8 로케일 설정
+RUN locale-gen ko_KR.UTF-8 && \
+    update-locale LANG=ko_KR.UTF-8 LC_ALL=ko_KR.UTF-8
+
+# /usr/local/scripts 디렉토리 생성 및 권한 설정
+RUN mkdir -p /usr/local/scripts && \
+    chmod 777 /usr/local/scripts
+
+# 환경 변수 설정
+ENV LANG ko_KR.UTF-8
+ENV LANGUAGE ko_KR:ko
+ENV LC_ALL ko_KR.UTF-8
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV PATH=$JAVA_HOME/bin:$PATH
+ENV SPARK_HOME=/usr/local/spark
+ENV HADOOP_HOME=/usr/local/hadoop
+
+# .bashrc 파일에 환경 변수 추가
+RUN echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> ~/.bashrc && \
+    echo 'export PYSPARK_PYTHON=/usr/bin/python3' >> ~/.bashrc && \
+    echo 'export PYSPARK_DRIVER_PYTHON=/usr/bin/python3' >> ~/.bashrc
+
+# FastAPI 및 필수 라이브러리 설치
+RUN pip3 install --upgrade pip && \
+    pip3 install fastapi uvicorn pandas hdfs python-multipart apscheduler sqlalchemy databases aiomysql pymysql python-dotenv pyspark bs4 pydantic requests beautifulsoup4 urllib3 cryptography pytz scikit-learn numpy && \
+    pip3 install --target=/usr/local/lib/python3.8/dist-packages pyspark
+
+# shared-data 디렉토리 및 하위 디렉토리 생성
+RUN mkdir -p /shared-data/filtered_squash
+RUN chmod -R 777 /shared-data
+
+# 작업 디렉토리 설정 (main.py 파일이 있어야 할 위치)
+WORKDIR /app
+
+# 기본 사용자로 돌아가기
+USER 1001
+
+# FastAPI 실행 명령어
+# CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

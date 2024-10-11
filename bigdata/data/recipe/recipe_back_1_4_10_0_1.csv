@@ -1,0 +1,88 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+41108,메인반찬,다이어트,버섯류,볶음,쫄깃한 버섯잡채,버섯잡채,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/1ed2ebad19a6c52c78090b55c89b0dd1.jpg,"80,461",30분 이내,초급,2인분,"[('당면', '1줌'), ('당근', '1/2줌'), ('파프리카', '1/4개'), ('오이', '1개'), ('각종버섯', '1줌'), ('맛간장', '3스푼'), ('매실청', '1스푼'), ('참기름', '0.5스푼'), ('통깨', '1스푼'), ('포도씨유', '약간')]",쫄깃한 식감이 좋고 담백하면서 진한 맛이 좋은 버섯잡채 만들어 볼게요.,"[{'step_number': 1, 'description': '식용유 두르고 당근먼저 볶다가 팽이버섯만 남기고 모두 같이 볶아줍니다. 버섯이 숨이 죽을정도로만 볶아줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/fb0d91f294c9f7c2b063e79e788a137a1.jpg'}, {'step_number': 2, 'description': '팽이버섯 넣고 삶은 당면을 넣고 맛간장, 매실청으로 재빨리 간을 합니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/0965ed2aa91d88a9ecb1451c30d6b82c1.jpg'}, {'step_number': 3, 'description': '불을 끄고 참기름 깨소금 넣고 고루 버무려준다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/37d4c53dd371c6921d696da2e81d97881.jpg'}]"
+41109,메인반찬,다이어트,버섯류,볶음,"백선,순정,곤지7호 버섯으로 만든 곤약버섯잡채",곤약버섯잡채,https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/9a7dedab4fede4e66a2c1184b7c90c741.jpg,401,15분 이내,아무나,2인분,"[('실곤약', '200g'), ('3색모둠느타리버섯', ''), ('간장', ''), ('설탕', ''), ('참기름', '')]","200g에 10kcal밖에 안하는 저칼로리 식물성 식이섬유 '실곤약'과
+3색 느타리버섯(백선, 순정, 곤지7호)을 활용한 건강식","[{'step_number': 1, 'description': '3색 모둠 느타리버섯(백선, 순정, 곤지7호)을 올리브유를 두른 팬에 소금간만하여 달달 볶아 준다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/9d30b157f6be5f1cde950713fafb27c51.jpg'}, {'step_number': 2, 'description': '3색 모둠 느타리버섯(백선, 순정, 곤지7호)을 올리브유를 두른 팬에 소금간만하여 달달 볶아 준다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/95d70215247f3fe132fa3b4be7bb1d941.jpg'}, {'step_number': 3, 'description': '3색 모둠 느타리버섯(백선, 순정, 곤지7호)을 올리브유를 두른 팬에 소금간만하여 달달 볶아 준다완성 디쉬에 품종대로 올려줄 거라, 한꺼번에 볶지 말고 품종대로 따로 볶아주었습니다', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/52bb7fcf84aa14c716c29ded67c0c01d1.jpg'}, {'step_number': 4, 'description': '실곤약을 팬에 살짝 볶아준다실곤약은 볶기 전에, 흐르는 물에 1회 씻고, 미지근한 물에 담갔다 볶아주면 특유의 비린맛이 사라집니다. \n보통 실곤약을 한번 데쳐주는데, 잡채의 경우 간장양념에 조려주는 과정이 있어 미지근한 물에 담가만 주는 것으로 ok.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/31d2ecad5aa4ecdd0d8d1e1a7e81f4221.jpg'}, {'step_number': 5, 'description': '잡채 양념(간장1:물1:설탕2)을 곤약에 졸여준다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/a002406172b1d60346184588f1d447961.jpg'}, {'step_number': 6, 'description': '한 접시에 3품종 버섯과 잡채 양념에 졸인 실곤약을 담아준다. 마무리로 참기름을 둘러준다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/2e65a8f0131739d4d5979817781cfc0f1.jpg'}, {'step_number': 7, 'description': '버섯과 곤약을 함께 맛본다!', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/09/d9a665786256a43ef9e5f87272dc65821.jpg'}]"
+41110,메인반찬,다이어트,버섯류,볶음,[무드앤쿡#.82] 팽이버섯 시리즈 3편 : 냉동 닭가슴살이 입 안에서 살살 녹는 다이어트 메뉴 <팽이버섯 닭가슴살,팽이버섯닭가슴살덮밥,https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/4927d373779f8f44fed9d58e5db7e6d51.jpg,995,60분 이내,초급,1인분,"[('팽이버섯', '150g'), ('닭가슴살', '1덩어리'), ('양파', '1/2개'), ('다진 마늘', '1큰술'), ('다진 파', '1큰술'), ('홍고추', '1/2개'), ('청고추', '1/2개'), ('전분물', '적당량')]",냉동실에서 꽝꽝 언 닭가슴살이 있다면 이 요리를 만들어 보세요! 너무나 맛있는 다이어트식 메뉴가 탄생합니다 ! * 이 레시피는 2021년 8월 식품의약품안전처 sns 요리 컨텐츠로 제공한 레시피 입니다 *,"[{'step_number': 1, 'description': '기름을 두른 팬에 다진 파와 마늘을 볶아줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/aeee2fa2d46459cb6f42e020b7ebb1b01.jpg'}, {'step_number': 2, 'description': '마늘이 황금색으로 익으면 채 썬 양파를 넣고 불투명해질 때까지 볶아줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/cff8968fabcd4738db7b1a368d03c7481.jpg'}, {'step_number': 3, 'description': '분량의 양념장 재료를 넣고 중불에서 바글바글 끓여줍니다.기호에 따라 매콤하게 고춧가루, 청양고추 등을 추가해도 좋아요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/ede9c866fb3e7f86c4c2c9d01cc04d2a1.jpg'}, {'step_number': 4, 'description': '삶을 닭가슴살을 찢어서 넣은 후 익혀줍니다.닭가슴살 캔제품을 사용해도 좋고, 양배추 등의 다른 야채를 풍성하게 넣어도 좋아요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/ebe58a71c77c44972654840492b0edc51.jpg'}, {'step_number': 5, 'description': '4cm 길이로 썰은 팽이버섯, 다진 청고추와 홍고추를 넣고 전분물 4큰술을 넣어 걸쭉하게 농도를 맞춰줍니다.*전분물 : 찬물과 전분을 같은 양으로 넣어 잘 섞어줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/8b6a456deef234314b597db3d82a56061.jpg'}, {'step_number': 6, 'description': '소금, 후추, 참치액젓 등을 기호껏 넣어줍니다. 팽이버섯은 금방 숨이 죽으므로 1분정도 익힌 후에 불을 끕니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/177acd009037e765de2ce39ea34ea6631.jpg'}, {'step_number': 7, 'description': '밥과 함께 곁들여 먹습니다 :)', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/73e39a95c2e73d3635de996b99605cd71.jpg'}]"
+41111,메인반찬,다이어트,버섯류,볶음,건강하고 간단하게 만드는 웰빙 반찬 레시피 맛있는 버섯잡채 만들기,버섯잡채,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/01/29dca128c4018f4776a9dcf72c467c161.jpg,"14,833",30분 이내,초급,3인분,"[('느타리버섯                                                                                300g', '1팩'), ('어묵                                                                                110g', '1장'), ('청피망', '50g'), ('\ufeff황피망', '50g'), ('방울토마토', '6개'), ('간장', '3T'), ('올리고당', '1T'), ('매실 액', '1T'), ('다진 마늘', '1/2T'), ('식용유', ''), ('소금', ''), ('후추', ''), ('참기름', ''), ('깨소금', ''), ('바질가루', '')]",냉장고에 보니 느타리버섯이 있더라구요. ​느타리버섯으로 무엇을 만들까? 고민하다가 간단하고 맛있게 그리고 좀 특색있게 해먹고 싶어서 잡채흉내를 내보았어요. 밥반찬으로도 맛있게 먹을 수 있는 잡채볶음~ 건강에도 좋고 다이어트에도 좋은 버섯으로 웰빙 잡채랍니다. 당면 대신 버섯을 넣는다고 생각하면 아주 쉬워요. 마침 어묵도 있길래 길쭉하게 썰어서 넣으니 더더욱 잡채 다워졌네요. ​버섯을 이용해 쫄깃쫄깃하고 맛있게 만드는 법을 소개하겠습니다.,"[{'step_number': 1, 'description': '재료를 씻어내고 버섯은 기둥만 잘라내고 탈탈 털어주세요. 먼지 같은 불순물이 많이 나온답니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/90f223e9eae3d75b63b3087135e8031b1.jpg'}, {'step_number': 2, 'description': '청 피망, 황 피망, 어묵은 같은 크기로 가늘게 채 썰어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/9e68c3228badbd1b90c9c0380f2a61ae1.jpg'}, {'step_number': 3, 'description': '방울토마토는 잘라서 4등분 합니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/903adf2eb68e6c3fbcd7901d85a942ad1.jpg'}, {'step_number': 4, 'description': '잠깐 재료를 자르는 동안 데칠 물을 불에 올려주세요. 재료 손질이 끝나고 바로 데칠 수 있답니다. 끓는 물에 소금 1/3T 넣고 버섯, 어묵 순으로 각각 데쳐내요. 그리고 물기를 꼭 짜줍니다. 짧은 시간 내에 데쳐낸 후 찬물에 씻어주세요. 어묵은 한번 익힌 상태의 식품이기 때문에 넣었다가 바로 꺼낸 다는 느낌으로 데쳐요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/ea2b188119fd40335d3caec9fb0987751.jpg'}, {'step_number': 5, 'description': '느타리버섯을 가닥가닥 뜯어주세요. 오뎅은 체반에 받쳐둡니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/6b3f20a4e263a49905536bb86588f3c41.jpg'}, {'step_number': 6, 'description': '간장 3T, 올리고당 1T, 매실 액 1T, 다진 마늘 1/2T를 섞어서 양념장을 만들어요. 양념장에 잘라놓은 토마토, 바질가루 두 번 툭툭 넣어요. 매실 액이 없으시다면 올리고당2T를 넣어주세요. 매실 액을 넣는 이유는 매실 액의 새콤달콤함이 토마토와 잘 어울리더라고요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/79d48d36e8b0282ef4633b57fcff0a411.jpg'}, {'step_number': 7, 'description': '가열한 팬에 오일을 약간 두르고 청 피망, 황 피망 넣고 소금 한꼬집 넣고 볶아주세요. 색이 약간 선명해질 때까지 볶아요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/5fc93db8068e6bbc327b34eef52af7b91.jpg'}, {'step_number': 8, 'description': '어묵과 버섯을 넣고 양념장과 방울토마토, 바질가루를 넣고 졸이듯이 볶습니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/40d7aadaba857db1499d9f6d19a26b7f1.jpg'}, {'step_number': 9, 'description': '버섯과 어묵에는 간이 되어 있기 때문에 소금을 뿌리지 않아요. 마무리로 후추 두 번 툭툭 넣고 참기름 한 바퀴 두른 후 참깨를 뿌리면 완성이에요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/fc42fd5ab4ed3863a8856d7083f222721.jpg'}]"
+41112,메인반찬,다이어트,버섯류,볶음,"고기느타리버섯요리, 다이어트요리 산타리두부샐러드 만드는법",버섯두부샐러드,https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/3efb84967b67e7acb66c3a57c81dd53a1.jpg,855,30분 이내,초급,2인분,"[('고기느타리버섯', '200g'), ('두부', '1모'), ('들기름', '2T'), ('쪽파', '5뿌리'), ('다진마늘', '조금'), ('진간장', '2T'), ('식초', '1T'), ('매실청', '1T'), ('참기름', '1T'), ('청양고추', '1개')]","오늘은 삼색 모둠 고기 느타리버섯요리입니다.
+ 다이어트요리 산타리두부샐러드를 만들었어요.
+쫄깃한 산타리버섯과 부드럽고 고소한 두부를 이용한 초간단 샐러드
+다이어트요리로도, 손님접대요리로도 손색이 없어요.","[{'step_number': 1, 'description': '삼색 느타리버섯을 준비 했어요.\n갓과 대가 하얀색인 백선은 감칠맛이 강해서 국물요리에 좋고\n노란빛을 띄는 순정은 향이 강하고, 기능성 물질이 풍부해서 양념이 강한요리에 어울린다네요.\n곤지7호는 갓과 대가 큰 느타리버섯으로 시장 점유율이 가장 좋다지요. 쫄깃한 식감이 좋아서 어떤요리와도 잘 어울리네요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/77e9b206cd65091968157eaac1ba58601.jpg'}, {'step_number': 2, 'description': '두부는 도톰하게 썰어주고\n키친타올을 깔아주고 수분을 빼 줍니다.\n수분을 적당하게 제거해야 부치기도 쉽고, 식감도 좋아요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/be114d77d63c6aeb89deef1e2e8e29241.jpg'}, {'step_number': 3, 'description': '삼색 느타리버섯 백선, 순정, 곤지7호는\n가늘게 찢어주고, 가볍게 물로 씻어서 물기를 빼 줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/8d68da77891a2e6521744a8607c710841.jpg'}, {'step_number': 4, 'description': '분량의 재료로 양념장을 만들어 줍니다.\n쪽파, 다진마늘, 청양고추, 진간장2T, 식초1T, 매실청1T, 참기름1T,흑임자조금', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/ca7cf6a4ad84d09729c35f34115309581.jpg'}, {'step_number': 5, 'description': '수분을 적당하게 빼준 두부는 들기름을 두르고 노릇하게 부쳐 줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/63edefc67cf7f85b201877d04c5575c21.jpg'}, {'step_number': 6, 'description': '앞뒤로 노릇하게 부쳐 주는데\n두부는 너무 자주 뒤집으면 부서집니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/cbe75e59d86071f4ef09d2c5773bcf401.jpg'}, {'step_number': 7, 'description': '두부를 부쳐낸 팬에\n곤지7호를 넣고 굽듯이 볶아 줍니다.\n버섯에서 나오는 수분이 없어질때까지 굽듯이 버섯을 익혀 줍니다.\n그래야 산타리버섯이 고기처럼 쫄깃하고, 감칠맛이 납니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/6ecb0f6cba3c24b352c118e512c17f731.jpg'}, {'step_number': 8, 'description': '하얀느타리버섯 백선도 적당하게 굽듯이 익혀 주고', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/c9b46ead4b1a6843ea23dc269ea5bd891.jpg'}, {'step_number': 9, 'description': '노란색 순정도 같은 방법으로 굽듯이 익혀 줍니다.\n익히면 노란빛은 사라 집니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/821ba1aa75aba89f1d1c765d047ad1441.jpg'}, {'step_number': 10, 'description': '접시에 두부를 가지런히 올려주고\n구워놓은 버섯도 올리고\n양념장을 적당하게 뿌려 줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/b9321b5e4a4ac68089c3cfe4188b53011.jpg'}]"
+41113,메인반찬,다이어트,버섯류,볶음,버섯 잡채 만드는 법,버섯잡채,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/19/4d6e5a0c873cad094d9bda1630d220421.jpg,"13,664",30분 이내,아무나,2인분,"[('쇠고기', '150g'), ('표고버섯', '3장'), ('느타리버섯', '50g'), ('새송이버섯', '2개'), ('팽이버섯', '1봉지'), ('부추', '1줌'), ('양파', '1개'), ('당면', '400g'), ('빨간 파프리카', '1/2개'), ('노란 파프리카', '1/2개'), ('주황 파프리카', '1/2개'), ('간장', '6큰술'), ('설탕', '3큰술'), ('다진마늘', '1큰술'), ('참기름', '3큰술'), ('간장', '1/2큰술'), ('청주                                                                                또는 미림', '1큰술'), ('다진마늘', '1/2큰술'), ('후추', '약간')]",버섯 잡채 맛있게 만드는 법 저수분으로 담백하게~~,"[{'step_number': 1, 'description': '이 외의 기호에 맞는 재료를 추가로 넣으셔도 되요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/b12eec5b1dd692469bafc6155aebd8a91.jpg'}, {'step_number': 2, 'description': '쇠고기는 밑간 재료를 넣고 재워 두시고, 양념장 재료도 모두 넣어 골고루 섞어줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/0ebe1cdcdf87ec4d26583c7ac14313b41.jpg'}, {'step_number': 3, 'description': '당면은 뜨거운 물에 약 15~20분 정도 담궜다가 건져줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/f924cb341e0b1a78e1ba735f22c5829d1.jpg'}, {'step_number': 4, 'description': '느타리와 팽이버섯은 결대로 쪽쪽 찢어주고, 새송이버섯은 느타리 길이만큼으로 잘라서 채를 썰어주세요. 표고버섯, 파프리카, 양파는 채를 썰어주세요. 부추는 버섯길이만큼으로 썰어줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/6faca513493375fc82d6932de691c3e11.jpg'}, {'step_number': 5, 'description': '양념에 재워 둔 고기를 볶다가 양파를 넣어 함께 볶아주고 물 1종이컵을 넣어 줍니다. 새송이, 느타리, 표고버섯을 올리고 양념장의 1/3을 뿌려줍니다. 그 위에 불려 놓은 당면을 올리고 나머지 양념의 반을 넣어 준후 뚜껑을 닫고 약불에서 익혀줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/32fff75cef181ed698c207945939530a1.jpg'}, {'step_number': 6, 'description': '당면이 다 익으면 파프리카와 팽이버섯을 올리고 남은 양념을 모두 넣어주세요. 그 위에 부추를 올리고 약 15초동안 뚜껑을 덮어 두었다가 열어 통깨를 넣어 골고루 섞어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/ad2d97f6c5243d1633da914b4eb3d10b1.jpg'}]"
+41114,메인반찬,다이어트,버섯류,볶음,[무드앤쿡#.83] 팽이버섯 시리즈 4편 : 쫄깃한 식감이 후루룩 들어가는 파스타 <팽이버섯 새우 파스타>,팽이버섯새우파스타,https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/e514880fc0ca4c73dfb9500b8339dd631.jpg,778,30분 이내,아무나,1인분,"[('팽이버섯', '1단'), ('마늘', '4~5개'), ('새우', '7~8개'), ('버터', '1큰술'), ('소금', '약간'), ('후추', '약간'), ('페퍼론치노', ''), ('가쓰오부시                                                                                선택', '')]",밀가루 파스타보다 칼로리는 낮고 쫄깃함은 업그레이드 된 팽이버섯 파스타를 소개합니다 ! * 이 레시피는 2021년 9월 농촌진흥청 sns 요리 컨텐츠로 제공한 레시피 입니다 *,"[{'step_number': 1, 'description': '올리브유를 넉넉히 두른 팬에서 편 썰은 마늘을 중약불에서 익혀줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/b1dc19b8a9035f60ef6774bf0d6006d01.jpg'}, {'step_number': 2, 'description': '깨끗하게 세척한 대하를 넣고 미림 1큰술을 넣어 구워줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/26aa48b2293f3bed4c359774b8b758e21.jpg'}, {'step_number': 3, 'description': '팽이버섯을 넣고 볶아줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/54a1bf08ce7b0010dea28b472a89b2821.jpg'}, {'step_number': 4, 'description': '버터 1큰술, 페퍼론치노(선택), 가쓰오부시(선택)를 넣고 소금, 후추로 취향껏 간을 합니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/b8797968bbcb3b1e60330e4e6d039d621.jpg'}, {'step_number': 5, 'description': '바게트와 함께 먹어도 잘 어울려요 :)', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/10/04/33bb989f0a3930738446d074decb86fe1.jpg'}]"
+41115,메인반찬,다이어트,버섯류,볶음,다이어트 잡채 만들기│노 밀가루 잡채 레시피│팽이버섯으로 잡채 만들기,잡채,https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/f7d40e3eeb4d0af1bf0f1ed29421165e1.jpg,"1,803",10분 이내,초급,2인분,"[('팽이버섯', '1봉지'), ('청양고추', '2개'), ('콩나물', '100g'), ('청경채', '50g'), ('대파', '1/2대'), ('당근', '50g'), ('굴소스', '2T'), ('후춧가루', '약간')]","제가 47kg의 체중을 유지하면서
+저녁으로 먹었던 요리에요. ^^
+
+팽이버섯의
+버섯 키토산이 지방 성분을
+
+흡수를 막으며 몸 밖으로
+배출하는 역할을 하여
+
+체지방 축척을 막고 감소
+까지 돕는답니다.^^","[{'step_number': 1, 'description': '팽이버섯은 \n먹기좋게 찢어서\n차가운 물에\n잘 씻어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/28d2bd91c3c85b3e81908f1ba969462e1.jpg'}, {'step_number': 2, 'description': '당근은 채를 \n썰어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/89c32d9ae9a3a91d55c6d519e54a28491.png'}, {'step_number': 3, 'description': '대파는 길쭉하게 \n썰어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/49f1c8864136ee9658eaae9b923e22b01.jpg'}, {'step_number': 4, 'description': '청양고추는 잘게 \n다져주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/fd4f04f95d60f9f1bd0713b4f14e76a01.jpg'}, {'step_number': 5, 'description': '팬에 콩나물, 팽이버섯, 당근을\n넣고 뚜껑을 닫아 익혀주세요.중불에 2분', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/03d2d1f6ad251ce574e66c1122191cef1.jpg'}, {'step_number': 6, 'description': '다시 뚜껑을 열어\n대파, 청경채, 청양고추를\n함께 넣고 볶아주세요.중불에 2분', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/2a8a683ebe3c360d51b0c533c2d2d2e01.jpg'}, {'step_number': 7, 'description': '야채들이 숨이 \n죽었을 때쯤\n굴 소스, \n후춧가루 넣고\n불을 끈\n프라이팬의\n미열에서 1분간\n소스를 섞은 뒤\n접시에 옮겨주세요.프라이팬의 미열에서 1분간 소스 섞기', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/03/be3d587c6104a38849041d5eb3bd48141.jpg'}]"
+41116,메인반찬,다이어트,버섯류,볶음,버섯잡채 [다양한 버섯 넣고 간장양념으로 볶아 낸 볶음요리! 당면 안 들어간 건강한 다이어트 잡채!],버섯잡채,https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/3d866a5bfa83453dffdaeed81814cdba1.jpg,627,30분 이내,아무나,2인분,"[('표고버섯', '5개'), ('느타리버섯', '1줌'), ('빨간파프리카', '1/4개'), ('노란파프리카', '1/4개'), ('피망', '1/4개'), ('양파', '1/2개'), ('다진마늘', '1/2스푼'), ('진간장', '2스푼'), ('굴소스', '1스푼'), ('맛술', '1스푼'), ('설탕', '1/2스푼'), ('참기름', '1스푼'), ('깨', '1/2스푼'), ('소금', '2꼬집'), ('후추', '2꼬집')]","버섯은 
+
+맛도 좋고 건강에도 좋죠.
+
+​
+
+그래서 장 볼 때마다 
+
+종류를 달리해서
+
+매번 담아오게 되네요.​
+
+​
+
+오늘은 다양한 버섯을
+
+ 냉장고 속 채소와 함께
+
+간단하게 볶아봤어요.
+
+잡채는 다양한 채소와
+
+당면을 함께 볶은 요리죠?
+
+​
+
+잡채는 원래 중국요리인데,
+
+그 어원을 살펴보면
+
+다양한 채소 또는 
+
+채소와 고기를 더해서
+
+볶아 낸 요리를 모두
+
+잡채라고 부른다고 하더라고요?
+
+​
+
+이 잡채가 우리나라로 넘어오면서
+
+당면도 추가된 것이라고 해요.
+
+​
+
+그러니까 굳이 당면을 넣지 않아도
+
+잡채라고 불러도 되는 거죠.
+
+당면을 넣지 않아도
+
+​
+
+다양한 채소를 넣고 볶아
+
+잡채느낌이 나도록 만든
+
+​
+
+건강한 다이어트 잡채!
+
+​
+
+버섯잡채예요.","[{'step_number': 1, 'description': '표고버섯 5개, 느타리버섯 1줌\n먹기 좋게 잘라주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/3252c40ab44f02771306d5821c5036171.jpg'}, {'step_number': 2, 'description': '빨간 파프리카 1/4개, 노란 파프리카 1/4개,\n피망 1/4개, 양파 1/2개\n채썰어 주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/2fd5ed34097ce9d14397e39c78fca7971.jpg'}, {'step_number': 3, 'description': '진간장 2스푼, 굴소스 1스푼, 맛술 1스푼, \n설탕 1/2스푼, 참기름 1스푼, 깨 1/2스푼\n모두 넣고 골고루 섞어주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/6ba4f9fdd7d2740f5164277e9547c7951.jpg'}, {'step_number': 4, 'description': '기름 두른 팬에 \n버섯을 넣어주시고요.\n다진마늘 1/2스푼 넣어주세요.\n소금 2꼬집, 후추 2꼬집 넣은 후\n골고루 섞으며 볶아주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/440837b8f0005592c9953a2dfea8fbb81.jpg'}, {'step_number': 5, 'description': '버섯의 숨이 죽기 시작하면\n나머지 채소도 넣어주세요.\n골고루 섞으며 볶아주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/4a0142ef463d26db990afb86329b3beb1.jpg'}, {'step_number': 6, 'description': '채소의 숨이 죽기 시작하면\n양념을 넣어주시고요.\n골고루 섞으며 볶아주세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/8e3389670469c9c0982c4b083c9ae1981.jpg'}, {'step_number': 7, 'description': '표고버섯과 느타리버섯에\n다양한 채소를 더해서\n간장양념으로 건강하게 볶아 낸\n버섯잡채가 완성됐어요.\n버섯은 쫄깃한 식감을 지닌\n건강한 식재료잖아요?\n다양한 채소 넣고 함께 볶으니\n식감도 맛도 영양도 더해지네요.\n간장양념 넣고 볶아서\n맛이 강하지 않아서 \n밥반찬으로도 딱 좋네요.\n간장의 양을 좀 추가하고\n당면을 넣고 함께 볶으면\n진정한 버섯잡채가 되겠죠?\n오늘은 좀 더 건강하게 먹고 싶어서\n당면은 빼고 만들어 봤어요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2022/07/11/27b3d873d7e1aed4cb639443b1db59a51.jpg'}]"

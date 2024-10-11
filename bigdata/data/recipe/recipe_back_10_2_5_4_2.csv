@@ -1,0 +1,56 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+159061,샐러드,손님접대,해물류,무침,잣즙채(잣소스),잣즙채,https://recipe1.ezmember.co.kr/cache/recipe/2019/05/26/de65548798e2cbcf52cddae2da5b31061.jpg,"3,465",15분 이내,초급,2인분,"[('오이', '1/2개'), ('죽순', '1/8개'), ('관자', '1개'), ('소라', '1개'), ('새우', '3마리'), ('배', '1/3개'), ('잣', '15알'), ('소금', '1/2작은술'), ('흰후추', '1/4개'), ('깨소금', '약간'), ('참기름', '1작은술')]","더워서 입맛없는 요즘..
+고소한 잣소스를 곁들여 채소와
+해산물을 버무려 드셔보아요!
+입맛을 확~당기는 맛이랍니다!","[{'step_number': 1, 'description': '냄비에 물을 끓여서 재료를 데칠 준비해요!오이, 죽순, 관자, 소라, 새우를 손질 후 \n데칠 예정이랍니다!', 'image_url': None}, {'step_number': 2, 'description': '오이는 길이대로 씨만 제거하여\n편으로 썰어줘요!씨를 제거하지 않으면 금방 \n물이 생기고 물러진답니다!', 'image_url': None}, {'step_number': 3, 'description': '죽순도 길이대로 썰고 \n관자는 3등분, 소라는 4등분, 새우는 머리와 내장을 제거해줘요!새우의 내장은 머리기준 등쪽 두마디뒤에\n있으니 이쑤시개로 쏘옥! 빼주세요!', 'image_url': None}, {'step_number': 4, 'description': '냄비에 오이-죽순-관자\n-소라-새우순으로 데쳐줘요!재료를 깨끗한 순서로 데쳐야해요!', 'image_url': None}, {'step_number': 5, 'description': '배는 편으로 썰고 새우가 어느정도 식으면 껍질을 제거하여 반으로 썰어요!', 'image_url': None}, {'step_number': 6, 'description': '그 사이에 잣을 아주 곱게 다져서 준비하고 소금, 흰후추, 깨소금, 참기름을 넣고\n소스를 만들어요!잣을 곱게 다져야 음식에 돌아다니지 않아요!', 'image_url': None}, {'step_number': 7, 'description': '다 데쳐진 재료와 잣소소를 버무려 완성해요!살살 버무려야 해산물들이 으스러지지 않아요!', 'image_url': None}]"
+159062,샐러드,손님접대,해물류,무침,명절상차림 / 손님초대메뉴로 좋은 해파리냉채 만드는 법,해파리냉채,https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/815fe0445427267e43d20230dd8b25771.jpg,"8,152",90분 이내,아무나,3인분,"[('염장 해파리', '500g'), ('오이', '1개'), ('크래미', '90g'), ('설탕', '3스푼'), ('식초', '3스푼'), ('다진마늘', '2스푼'), ('소금', '1/2스푼'), ('설탕', '4스푼'), ('식초', '4스푼')]",,"[{'step_number': 1, 'description': '흐르는 물에 여러번 바락바락 문질러 씻어낸 해파리를 찬물에 1시간 정도 담가 염분을 제거한다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/3d6364f60877a796f3d8b5a7450b4f1c1.jpg'}, {'step_number': 2, 'description': '500g 염장해파리가 1차 손질을 했더니 278g! 중량이 거의 반으로 줄었어요 이제 염분을 제거한 해파리 2차손질에 들어가요해파리 손질법 레시피', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/3ba40aaed0cbd558c7e885c1631a1b121.jpg'}, {'step_number': 3, 'description': '물이 끓으면 불을 끄고 2분 정도 경과 후 해파리를 넣고 데쳐내 찬물에 바락바락 비벼 헹군다. 해파리는 약70~80도의 물에 데치는 게 오그라들지 않고 특유의 식감을 살릴 수가 있어요 스타킹 빨 듯 손으로 비비고 여러번 헹궈 특유의 냄새도 제거해주세요~', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/2be1573a0a1473e5b4a56603e2e9c0ba1.jpg'}, {'step_number': 4, 'description': '물기 짠 해파리에 설탕과 식초 동량을 넣어 밑간한다. 설탕은 위로 봉긋 올라오는 거 깎아서 식초와 동량으로 3스푼씩 넣었어요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/16f3f107f9c7479a1e38b02df6d024c61.jpg'}, {'step_number': 5, 'description': '밀폐용기에 담아 냉장보관한다. 간도 잘 배이게 하면서 식감을 더 살리기 위해 전날 미리 손질해놓음 좋아요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/1ae6cc539ad8e3f7621ff165b3c087201.jpg'}, {'step_number': 6, 'description': '다진마늘과 소금, 설탕, 식초를 넣어 마늘소스를 만든다. 마늘소스에서 마늘이 중요한데요 칼로 다진마늘이어야 깔끔한 맛이 더 살아나더라고요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/623e08e95f16a85bdfa7506d58c092021.jpg'}, {'step_number': 7, 'description': '설탕과 소금을 잘 녹여 30여분 숙성시킨 후 드시기 직전에 참기름 1스푼 넣는다. 마늘소스는 번거롭지만 약간의 숙성시간이 필요해요 만든 후 바로 먹음 마늘의 매운맛이 남지만 숙성을 거치면 매운맛은 사라지고 깔끔함과 시원함을 느낄 수가 있어요 재료 채썰기 전에 미리 만들어놓으세요~', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/bbc6b691271102ef1acc69f0b5c0a4531.jpg'}, {'step_number': 8, 'description': '오이는 채썰고 크래미는 결대로 찢어 준비한다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/d7820c668103a6f0a8202db0d014c1a11.jpg'}, {'step_number': 9, 'description': '재료준비가 끝났으면 그릇에 오이와 크래미를 담고...', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/e4927e04620d5b6dc10bf83fc304a44a1.jpg'}, {'step_number': 10, 'description': '밑간한 해파리는 고인 물을 따라내고 해파리만 건져 마늘소스 약간으로 버무려 담아낸다. 이때 마늘소스에 참기름넣어 섞어 사용해요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/c9c9ae6084ce913fa17e57f2b5d0b53f1.jpg'}, {'step_number': 11, 'description': '마늘소스를 곁들여 상에 낸다.냉채류는 소스를 미리 뿌리면 채소에서 물이 나와 따로 담아내는 것이 좋아요', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2017/09/13/f8b952a2731168f20bafa8bde19cc3661.jpg'}]"
+159063,샐러드,손님접대,해물류,무침,새우냉채 ;집밥도 충분히 레스토랑 처럼~,새우냉채,https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/365762495fa20dc55869d8666e48f9691.jpg,"1,669",30분 이내,아무나,2인분,"[('새우', '16마리'), ('파프리카', '3개'), ('오이', '1개'), ('맛살', '3줄'), ('식초', '3큰술'), ('설탕', '3큰술'), ('물', '3큰술'), ('다진마늘', '4큰술'), ('참기름', '3큰술'), ('연겨자', '1큰술'), ('소금', '3/5큰술')]","남의 손맛 즐기고픈 맘은
+
+간절간절~
+
+​
+
+하지만
+
+이놈의 코로나 때문에.
+
+
+그리고
+
+아시안 혐오 분위기도 더해져서
+
+(트럼프의 중국 바이러스 발언으로 인한)
+
+백인 비율이 90%에 가까운
+
+이곳이라
+
+되독록이면 외출을 자제하고 있어요.
+
+​
+
+SNS에 종종 올라오는
+
+아시안 대상 묻지마 공격의
+
+피해자가 나 일수도 있기에 ㅠ.ㅠ
+
+​
+
+그깟 외식!
+
+좀 안하면 어때~
+
+​
+
+
+​
+
+오늘은
+
+우리집을 레스토랑처럼 !
+
+​
+
+새우냉채 만들었습니다.","[{'step_number': 1, 'description': '뒷마당에\n하나둘씩 달리는\n오이를\n감사한 맘으로 따오고요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/b48ed6fa21dbe83b9ddb6ca8b8b1c7371.jpg'}, {'step_number': 2, 'description': '색색의 이쁜 파프리카도 준비했어요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/d9eba790651d8360c871db0038121fae1.jpg'}, {'step_number': 3, 'description': '냉동 새우는 해동시키고', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/083d17ce03c7e3f0eb40c0413a94709d1.jpg'}, {'step_number': 4, 'description': '팔팔 끓는 물에\n레몬즙 한큰술 넣고\n살짝~~쿵! 삶아 줍니다.\n※껍질이 분홍으로 변하면 다 익은거니까\n너무 삶아 새우 살이 퍽퍽해 지지 않도록 주의!', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/cf2c94daa515af4a4f78f84a16f9ef361.jpg'}, {'step_number': 5, 'description': '새콤,달콤,\n톡! 쏘는 맛이 매력인\n겨자소스 만들기\n[겨자소스]\n식초 3큰술\n설탕 3큰술\n물 3큰술\n다진마늘 4큰술\n참기름 3큰술\n연겨자 1큰술\n소금 3/5큰술\n※입맛에 맞게 재료 가감하세요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/0ad3f859d6529c742db5539103c1f7e21.jpg'}, {'step_number': 6, 'description': '색색 파프리카 3개\n오이 1개\n맛살 3줄\n냉장고에 있는 재료들 활용하시면\n냉파용으로 좋아요.\n재료들을 채썰어 가지런히 담고\n삶은 새우를 껍질을 제거하고\n함께 담아줍니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/136493bff5c53c4437f51a5804da96431.jpg'}, {'step_number': 7, 'description': '자연이 주는 색감은\n어찌 이리도 곱디 고운지요.\n요리가\n즐거운 미술 놀이가 되는 시간입니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/6816da83b9ed633ced08915d40b0f8c91.jpg'}, {'step_number': 8, 'description': '만들어 둔\n새콤,달콤,\n톡! 쏘는 겨자소스를\n쭈욱~~~~~~부어주면\n맛있는\n새우 냉채가 완성!', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/9b2c5386fc0db0a569fbaf608b6c51fe1.jpg'}, {'step_number': 9, 'description': '여름날 같지 않게\n시원한 바람이 산들산들\n바람이 부니까 모기도 없고\n데크에서 맛난 시간을\n즐기기에 딱! 좋은', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/276bef97e9bea2d4f448b904cf1016981.jpg'}, {'step_number': 10, 'description': '레스토랑 부럽지 않은\n우리집 식탁입니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/4c32aba0afd3485fa25257ea03a78f131.jpg'}, {'step_number': 11, 'description': '싱그러운 과일들도\n듬뿍~ 담아내고요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/137c86496354d9049141d4728d79140a1.jpg'}, {'step_number': 12, 'description': '맛난 음식과\n시원한 바람 즐기며\n울 부부\n이런저런 시덥지 않은 이야기들을\n나누는 시간에\n외식이 별건가?\n이렇게\n데크에 나와서 먹으면\n외식이지!\n마음의 위안을 해 봅니다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2020/08/18/3f15f741bbfb1217978047e6982ba3ff1.jpg'}]"
+159064,샐러드,손님접대,해물류,무침,해파리냉채,해파리냉채,https://recipe1.ezmember.co.kr/cache/recipe/2019/08/04/59fc7bdf8d7b1d1c44ebd855e709a1401.jpg,"9,643",15분 이내,초급,3인분,"[('해파리', '1봉지'), ('맛살', '1봉지'), ('오이', '1개'), ('연겨자', '1스푼'), ('레몬', '1스푼'), ('와사비', '1작은술'), ('설탕', '1숟갈'), ('식초', '1스푼')]",해파리냉채를 만들수 있다,"[{'step_number': 1, 'description': '해파리를 씻는다', 'image_url': None}, {'step_number': 2, 'description': '씻은걸 담고 맛살과 오이를 담는다 오이는채썬다\n맛살은쪼개고', 'image_url': None}, {'step_number': 3, 'description': '다담고 소스를뿌린다', 'image_url': None}, {'step_number': 4, 'description': '그럼 완성', 'image_url': None}]"

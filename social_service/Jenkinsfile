@@ -1,0 +1,112 @@
+pipeline {
+    agent any
+
+    environment {
+        BACKEND_DIR = './social_service'
+        DOCKER_IMAGE_BACKEND = 'parkgc0504/social-service:latest'
+        GITLAB_CREDENTIALSID = 'gichangssafy'
+        DOCKERHUB_CREDENTIALS = 'dockerhub-credentials'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git credentialsId: GITLAB_CREDENTIALSID, branch: 'master', url: 'https://lab.ssafy.com/s11-bigdata-dist-sub1/S11P21C206.git'
+            }
+        }
+        stage('Notify Start') {
+            steps {
+                script {
+                    def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                    def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                    mattermostSend(
+                        color: 'warning',
+                        message: "social-service 빌드 시작: ${env.JOB_NAME} #${env.BUILD_NUMBER} \n(<${env.BUILD_URL}|Details>)",
+                        endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                        channel: 'C206_deploy'
+                    )
+                }
+            }
+        }
+
+        stage('Build social-service') {
+            when {
+                changeset "social_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(BACKEND_DIR) {
+                    sh 'chmod +x gradlew'
+                    sh './gradlew clean build'
+                }
+            }
+        }
+
+        stage('Docker Build and Push social_service to DockerHub') {
+            when {
+                changeset "social_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(BACKEND_DIR) {
+                    script {
+                        docker.withRegistry('https://registry.hub.docker.com', DOCKERHUB_CREDENTIALS) {
+                            def backendImage = docker.build(DOCKER_IMAGE_BACKEND)
+                            backendImage.push()
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Deploy Locally') {
+             when {
+                   changeset "social_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+             }
+            steps {
+                dir(BACKEND_DIR) {
+                    script {
+                        // Stop and remove any running social-service container
+                        sh 'docker stop social-service || true && docker rm social-service || true'
+
+                        // Run the new social-service container
+                        sh '''
+                        docker run -d -p 8083:8083 \
+                        --network backendnet \
+                        --name social-service \
+                        -e "eureka.client.registerWithEureka=true" \
+                        -e "eureka.client.fetchRegistry=true" \
+                        -e "eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka" \
+                        -e "logging.file=/api-logs/social-ws.log" \
+                        parkgc0504/social-service:latest
+                        '''
+                    }
+                }
+            }
+        }
+    }
+
+
+     post {
+        success {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'good',
+                    message: "social_service 빌드 성공: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+        failure {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'danger',
+                    message: "social_service 빌드 실패: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+    }
+}

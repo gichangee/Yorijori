@@ -1,0 +1,26 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: social-service
+  datasource:
+    url: jdbc:mysql://j11c206.p.ssafy.io:3306/yorijori
+    username: gichang
+    password: gichang
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    prefer-ip-address: true
+    ip-address: j11c206.p.ssafy.io
+
+
+logging:
+  level:
+    com.recipe.catalogservice: DEBUG

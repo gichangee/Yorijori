@@ -1,0 +1,125 @@
+pipeline {
+    agent any
+
+
+    environment {
+        BACKEND_DIR = './user_service'
+        DOCKER_IMAGE_BACKEND = 'parkgc0504/user-service:latest'
+        CONFIG_FILE_PATH = '/home/backend_config/application-secrets.yml'
+        APPLICATION_YML_PATH = '/home/backend_config/application.yml'
+        TARGET_DIR = 'user_service/src/main/resources/'
+        GITLAB_CREDENTIALSID = 'gichangssafy'
+        DOCKERHUB_CREDENTIALS = 'dockerhub-credentials'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git credentialsId: GITLAB_CREDENTIALSID, branch: 'master', url: 'https://lab.ssafy.com/s11-bigdata-dist-sub1/S11P21C206.git'
+            }
+        }
+
+        stage('Notify Start') {
+            steps {
+                script {
+                    def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                    def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                    mattermostSend(
+                        color: 'warning',
+                        message: "user_service 빌드 시작: ${env.JOB_NAME} #${env.BUILD_NUMBER} \n(<${env.BUILD_URL}|Details>)",
+                        endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                        channel: 'C206_deploy'
+                    )
+                }
+            }
+        }
+
+        stage('Copy config files') {
+            steps {
+                script {
+                    def workspaceDir = pwd()
+                    sh "cp ${CONFIG_FILE_PATH} ${workspaceDir}/${TARGET_DIR}"
+                    sh "cp ${APPLICATION_YML_PATH} ${workspaceDir}/${TARGET_DIR}"
+                }
+            }
+        }
+
+        stage('Build user_service') {
+            when {
+                changeset "user_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(BACKEND_DIR) {
+                    sh 'chmod +x gradlew'
+                    sh './gradlew clean build'
+                }
+            }
+        }
+
+        stage('Docker Build and Push user_service to DockerHub') {
+            when {
+                changeset "user_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                dir(BACKEND_DIR) {
+                    script {
+                        docker.withRegistry('https://registry.hub.docker.com', DOCKERHUB_CREDENTIALS) {
+                            def backendImage = docker.build(DOCKER_IMAGE_BACKEND)
+                            backendImage.push()
+                        }
+                    }
+                }
+            }
+        }
+
+
+        stage('Deploy Locally') {
+            when {
+                changeset "user_service/**"  // backend 폴더에 변경 사항이 있을 때만 실행
+            }
+            steps {
+                script {
+                    // Stop and remove any running user-service container
+                    sh 'docker stop user-service || true && docker rm user-service || true'
+
+                    // Run the new user-service container
+                    sh '''
+                    docker run -d -p 8081:8081 --network backendnet --name user-service \
+                    -e spring.cloud.config.uri=http://config-service:8888 \
+                    -e spring.rabbitmq.host=rabbitmq \
+                    -e eureka.client.registerWithEureka=true \
+                    -e eureka.client.fetchRegistry=true \
+                    -e eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka \
+                    -e logging.file=/api-logs/users-ws.log \
+                    ${DOCKER_IMAGE_BACKEND}
+                    '''
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'good',
+                    message: "user_service 빌드 성공: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+        failure {
+            script {
+                def Author_ID = sh(script: "git show -s --pretty=%an", returnStdout: true).trim()
+                def Author_Name = sh(script: "git show -s --pretty=%ae", returnStdout: true).trim()
+                mattermostSend(color: 'danger',
+                    message: "user_service 빌드 실패: ${env.JOB_NAME} #${env.BUILD_NUMBER} by ${Author_ID}\n(<${env.BUILD_URL}|Details>)",
+                    endpoint: 'https://meeting.ssafy.com/hooks/rqoymdqdtjr4dqhkai1gmnnunh',
+                    channel: 'C206_deploy'
+                )
+            }
+        }
+    }
+}

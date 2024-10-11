@@ -1,0 +1,51 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: apigateway-service
+  cloud:
+    gateway:
+      default-filters:
+        - name: GlobalFilter
+          args:
+            baseMessage: Spring Cloud Gateway Global Filter
+            preLogger: true
+            postLogger: true
+      routes:
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user-service/users
+            - Method=POST
+          filters:
+            - RemoveRequestHeader=Cookie
+            - RewritePath=/user-service/(?<segment>.*), /$\{segment}
+
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/v1/users/**
+
+        - id: recipe-service
+          uri: lb://RECIPE-SERVICE
+          predicates:
+            - Path=/api/v1/recipe/**
+
+        - id: social-service
+          uri: lb://SOCIAL-SERVICE
+          predicates:
+            - Path=/api/v1/social/**
+
+        - id: ingredient-service
+          uri: lb://INGREDIENT-SERVICE
+          predicates:
+            - Path=/api/v1/ingredient/**
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, httpexchanges, busrefresh

@@ -1,0 +1,8 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+163274,빵,술안주,채소류,볶음,다양한 요리에 OK! 시금치페스토를 활용한 시금치페스토카나페 만들기,시금치페스토,https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/c4fccd9199079a75ea85e3379a15ec5b1.png,"9,213",30분 이내,아무나,2인분,"[('호밀빵', '1/2개'), ('방울토마토', '1종이컵'), ('모짜렐라치즈', '1개'), ('올리브유', '1숟가락'), ('소금', '약간'), ('후추', '약간'), ('시금치', '100g'), ('잣', '50g'), ('올리브유', '2/3종이컵'), ('파마산치즈가루', '2숟가락'), ('소금', '약간'), ('다진마늘', '1/2숟가락')]","겨울엔 바질 대신 시금치로 만들기가 쉽죠?! 
+한번 만들면 파스타, 샐러드 같은 요리에 활용할 수 있는 
+시금치 페스토를 카나페로 만들었어요! 
+
+간단한 브런치는 "" 시금치페스토카나페 "" 시작하세요 
+
+세상의모든레시피 만개의레시피","[{'step_number': 1, 'description': '2cm 두께로 어슷 썬 빵은 달군 팬에 앞뒤로 굽는다.팬', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/bae81e393e3a4398f38f54494975cff41.png'}, {'step_number': 2, 'description': '토마토는 4등분하고 치즈는 한 입 크기로 썰고 시금치는 밑동을 제거한 뒤 한 입 크기로 썬다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/f727d123c78bb2cce8be56c8a09328181.png'}, {'step_number': 3, 'description': '볼에 토마토, 올리브유, 소금, 후추, 치즈를 섞는다.볼', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/f1d4864329799b317f6fa6f38d6d66591.png'}, {'step_number': 4, 'description': '달군 팬에 잣을 볶는다.팬', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/fcfb48f5c3c4a8d5dc151132a4e3f89b1.png'}, {'step_number': 5, 'description': '믹서기에 시금치페스토 재료를 넣고 곱게 간다.믹서기', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/eae5d1479f75b9a144322bfbf3f632001.png'}, {'step_number': 6, 'description': '구운 빵 위에 시금치페스토를 바른 후 토마토, 모차렐라치즈를 올려 완성한다.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2021/01/18/a9d41d4b007de5cef04d415257611dc21.png'}]"

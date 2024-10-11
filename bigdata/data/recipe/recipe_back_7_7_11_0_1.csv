@@ -1,0 +1,10 @@
+index,종류별,상황별,재료별,방법별,글 제목,레시피이름,레시피이미지,조회수,조리시간,난이도,인분,재료,소개글,조리순서
+151366,퓨전,간식,과일류,볶음,"사과의 달콤함이 살아있는 간식, 사과떡볶이",사과떡볶이,https://recipe1.ezmember.co.kr/cache/recipe/2019/12/12/197b59c4c497509d9357f4292e0ef52d1.jpg,"13,044",30분 이내,아무나,2인분,"[('가래떡', '3줄'), ('사과', '1개'), ('꿀', '2숟가락'), ('버터', '1숟가락'), ('견과류', '1종이컵'), ('간장', '1숟가락'), ('참기름', '1숟가락')]","사과의 변신은 끝이 없다!
+샐러드, 주스, 잼 등 다양한 음식의 재료로 활용되는 사과
+
+오늘은 사과의 달콤한 향기를
+살릴 수 있는 요리를 준비했습니다.
+
+쫀득한 떡과 달콤한 사과의 만남!
+설탕 대신 꿀, 믿을 수 있는 우리 사과를 사용해
+아이 간식으로도 제격인 사과 떡볶이","[{'step_number': 1, 'description': '가래떡, 사과를 한입 크기로 썰어 준비해요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/12/12/9d7bf8dc5ed64d649b86de6939b822e01.jpg'}, {'step_number': 2, 'description': '가래떡에 간장, 참기름을 넣어 버무려요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/12/12/544533141a47c45348dd294ea04933bb1.jpg'}, {'step_number': 3, 'description': '예열된 팬에 기름을 조금 두르고 가래떡을 볶아내요.팬', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/12/12/06a9642c803cb8a5f3db59f6ef4958e31.jpg'}, {'step_number': 4, 'description': '예열된 팬에 버터를 넣어 녹인 후 사과, 견과류 순서로 넣어 볶아요.팬', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/12/12/905d8cbe59cd6f0f787e48bb48efcbc01.jpg'}, {'step_number': 5, 'description': '사과에 꿀과 볶아 놓은 가래떡을 넣어 볶아 완성해요.', 'image_url': 'https://recipe1.ezmember.co.kr/cache/recipe/2019/12/12/fa23dac461a95c5e672fd0851700f7b51.jpg'}]"
